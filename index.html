@@ -1,0 +1,91 @@
+<?php
+	// include "./db/config.php";
+	// if(isset($_POST['submit'])){
+	// 	$email = trim($_POST['email']);
+	// 	echo email;
+	// 	if(!empty($email)){
+	// 		$sql = "insert into awaiting(Email) values(?)";
+	// 		if($conn->prepare($sql)->execute([$email])){
+ //                $succ = "Your message was received admin will contact you soonest possible :)";
+ //                //unset user det
+ //                $_POST['email'] = "";
+ //            } else {
+ //                $err = "Mmh something wrong happened!";
+ //            }
+	// 	}
+	// }
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dennis Kibet Official Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://denniskibet.com/" />
+    <meta name="author" content="Dennis Kibet">
+    <meta name="description" content="Hello, I am Dennis. I am currently a student at Machackos University Kenya. I love building things for the internet.">
+    <meta name="theme-color" content="rgb(25, 17, 61)">
+    <meta name="keywords" content="portfolio, Dennis, Kibet, Rono, developer, Machackos, University">
+    <meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Dennis Kibet" />
+	<meta property="og:description" content="Hello, I am Dennis. I am currently a student at Machackos University Kenya. I love building things for the internet." />
+	<meta property="og:url" content="https://denniskibet.com" />
+	<meta property="og:site_name" content="Dennis Kibet" />
+	<meta property="article:publisher" content="http://instagram.com/finn_neron" />
+	<meta property="og:image" content="https://denniskibet.com/portfolio/images/rono.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="629" />
+	<link rel="stylesheet" type="text/css" href="fontawesome-5.0.8/css/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-5.0.8/css/fontawesome-all.min.css">
+</head>
+<body>
+    <ul class="squares">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div id="middle">
+        <h1>Website<br>Coming Soon...</h1>
+        <div id="countdown-container">
+            <div class="countdown-box">
+              <p id="c_days">0 <br> Days</p>
+            </div> <!-- /.countdown-box -->
+            <div class="countdown-box">
+              <p id="c_hours">0 <br> Hours</p>
+            </div> <!-- /.countdown-box -->
+            <div class="countdown-box">
+              <p id="c_minutes">0 <br> Minutes</p>
+            </div> <!-- /.countdown-box -->
+            <div class="countdown-box">
+              <p id="c_seconds">0 <br> Seconds</p>
+            </div> <!-- /.countdown-box -->
+        </div> <!-- /#countdown-container -->
+        <p class="notifyText">Get notified when we are live</p>
+        <form action="index.php" method="POST">
+          <input type="email"  maxlength="50" name="email" required placeholder="email address">
+          <button class="bt" name="sumbit">Subscribe</button>
+        </form>
+        <br>
+        <a href="https://twitter.com/FinnNeron" target="_blank">
+            <i id="twitter" class="fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/DennisRono" target="_blank">
+            <i id="dribbble" class="fab fa-github"></i>
+        </a>
+        <a href="https://discord.gg/t7dEEgGE6y" target="_blank">
+            <i id="codepen" class="fab fa-dropbox"></i>
+        </a>
+    </div><!-- /#middle -->
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
